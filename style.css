@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    z-index: 9;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    width: 100%;
+    height: 12vh;
+    color: rgb(253, 253, 253);
+    font-size: 4vh;
+    text-decoration:none;
+    background-color:transparent
+}
+header a:hover {
+    display: flex;
+    color: rgba(0, 0, 0, 0.482);
+
+}
+header a {
+    position: relative;
+    transition: color 0.4s;
+    opacity: 0.250;
+    left: 23%;
+    padding: 3vh 8%;
+    margin-left: 3%;
+    color: blueviolet;
+    background-color: rgb(255, 255, 255);
+    top: 3vh;
+    text-decoration: none;
+
+}
+.nkar{
+    position: absolute;
+    z-index: 8;
+}
+.imnkar{
+    z-index: 10;
+    position: absolute;
+    top: 10vh;
+    width: 15%;
+    height: 30vh;
+    background-size: cover;
+    background-image: url(./361314860_1450568629122856_5338152988789391197_n.jpg);
+    border-radius: 20%;
+    left: 4vh;
+}
+.header1{
+    
+    background-repeat: no-repeat;
+    z-index: 4;
+    background-size: cover;
+    background-image: url(./general.jpg);
+    filter: blur(3px);
+    width: 100%;
+    height: 100vh;
+}
+.js{
+     display: flex;
+     z-index: 5;
+     width: 5%;
+     height: 10vh;
+     border-radius: 50%;
+     position: absolute;
+     justify-content: left;
+     top: 1vh;
+}
+.text{
+    display: flex;
+    position: absolute;
+    top: 13.5vh;
+    left: 5%;
+    color: rgba(0, 0, 0, 0.82);
+    font-family: cursive;
+    font-size: 18px;
+}
+.home{
+    width: 4%;
+    height: 7vh;
+    display: flex;
+    position: absolute;
+    top: 92%;
+    left: 46%;
+
+}
+.asd{ z-index: 10;
+    background-color: rgba(0, 0, 0, 0.82);
+}
+.fon2{
+    background-color: rgba(0, 0, 0, 0.482);
+    display: flex;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    filter: blur(10px);
+   
+}
+.nkar2{
+    padding-top: 1px;
+    display: flex;
+    position: absolute;
+    width: 50%;
+    height: 40vh;
+    border-radius: 50%;
+    
+}
+.info{
+    margin:8px;
+    padding: 4px;
+position: absolute;
+flex-direction: column;
+display: flex;
+font-size: 22px;
+color: black;
+ left: 13%;
+ background-color:rgba(0, 0, 0, 0.03);
+
+}
+.contact1{
+    z-index: 7;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    top: 15vh;
+    left: 30vh;
+    width: 40vh;
+    height: 15vh;
+}
+.asd5{ z-index: 8;
+     display: flex;
+     position: absolute;
+     font-size: 20px;
+     top: 60vh;
+     left: 60vh;
+}
+.icon a { 
+     display:inline-flex;
+     position:relative;
+     width: 3%;
+     height: 6vh;
+     top: 60vh;
+     left: 82vh;
+
+}
+#i1{    display: inline-flex;
+    margin-left: 1px;
+    position:relative;
+   font-size: 3rem;
+    top: 59vh;
+    left: 82vh;
+
+}
+.asd99{
+    display: flex;
+    font-size: 2rem;
+    color: black;
+    position: relative;
+    top: 59.8vh;
+    left: 82.1vh;
+}
+
+.icon{
+    display: flex;
+
+}
